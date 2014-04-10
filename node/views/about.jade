@@ -1,0 +1,280 @@
+extends main-layout
+block content
+	section#about(data-stellar-background-ratio='0.5', style="background-image:url('../images/theme-pics/paralax-blue-3.jpg');")
+			.container
+					.row
+						.col-lg-7.col-sm-6
+							.paralaxText(style="text-align:left")
+								p(style="text-align:left;font-size: 33px;line-height: 33px;margin-bottom: 0px;font-weight: 300;font-family: 'Open Sans', sans-serif;padding-left: 0;border: none;text-transform: uppercase;text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);letter-spacing: 0.1em;")
+									| 簡單快速，App產製服務 App Cross
+									br
+								ul(style="text-align:left;font-size: 17px;line-height: 33px;margin-top: 50px;font-weight: 300;font-family: 'Open Sans', sans-serif;padding-left: 0;border: none;text-transform: uppercase;text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);letter-spacing: 0.1em;color:white;")
+									li
+										無需程式開發背景 - 支援 Adobe InDesign5.5 / 6.0
+									li
+										整合影音功能、社群媒體以及網路服務
+									li
+										雲端內容管理發佈 - 數位雜誌、商品型錄、互動教材
+									li
+										書報攤與單一APP模式,支援iOS及Android雙平台
+									li
+										蒐集客戶行為,提供閱聽行為效益分析
+						.col-lg-5.col-sm-6.hidden-xs
+							img.img-responsive(src='images/theme-pics/home-girl.png', alt='Ashley, Bootstrap website template')
+
+	section.color4.slice
+			.ctaBox.ctaBoxFullwidth
+					.container
+						.row
+							.col-md-4
+								a.btn.btn-lg(title='', href='http://www.appcross.tw', target='blank', style="text-align:right")
+									i.icon-download(styie="margin-top:50px;")
+									| 免費下載App Cross
+							.col-md-8
+								h1(style="margin-top:15px")
+									可發佈於
+									img(src='/images/viewPlus/index_appgoo.png', alt='Ashley website template')
+							
+	
+	section
+		.container.imgHover
+			.row
+				.col-lg-12(style="padding-top:100px;")
+				article.col-sm-4
+					h1
+						|數位雜誌
+					section.imgWrapper
+						img.img-responsive(src='images/news/news1.jpg', alt='Ashleye template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news1.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText.color4
+						p(style="font-size: 18px;")
+							| 維持既有出版流程,藉由高互動的創意內容，激發讀者的想像力。
+							br
+							br
+							br
+						a.btn.btn-sm(onclick="scrollToAnchor('c1')")
+							i.icon-right-open-mini
+							| 了解更多
+				article.col-sm-4
+					h1
+						商品型錄
+					section.imgWrapper
+						img.img-responsive(src='images/news/news2.jpg', alt='snowflake template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news2.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText.color4
+						p(style="font-size: 18px;")
+							| 消費者透過互動性的產品型錄,串聯線上購買的服務。
+							br
+							br
+							br
+						a.btn.btn-sm(onclick="scrollToAnchor('c2')")
+							i.icon-right-open-mini
+							| 了解更多
+				article.col-sm-4(style="margin-bottom:100px;")
+					h1
+						互動教材
+					section.imgWrapper
+						img.img-responsive(src='images/news/news2.jpg', alt='snowflake template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news2.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText.color4
+						p(style="font-size: 18px;")
+							| 將教育內容打造高互動模式,激發學習動力,幫助發展學習。
+							br
+							br
+							br
+						a.btn.btn-sm(onclick="scrollToAnchor('c3')")
+							i.icon-right-open-mini
+							| 了解更多
+	section#c1.slice
+		.container.imgHover
+			.row
+				.col-lg-12
+					a(id="c1",style="text-decoration: none;")
+						h1 
+							數位雜誌
+					h2.subTitle 
+				article.col-sm-4
+					section.imgWrapper
+						img.img-responsive(src='images/news/news1.jpg', alt='Ashleye template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news1.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText(style="text-align:center")
+						h2 創意內容
+						p(style="font-size: 18px;")
+							| 落實美感創意,提供多種互動模組
+							br
+							br
+							br
+				article.col-sm-4
+					section.imgWrapper
+						img.img-responsive(src='images/news/news1.jpg', alt='Ashleye template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news1.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText(style="text-align:center")
+						h2 體驗預覽
+						p(style="font-size: 18px;")
+							| 立即預覽,體驗設計應用
+							br
+							br
+							br
+				article.col-sm-4
+					section.imgWrapper
+						img.img-responsive(src='images/news/news1.jpg', alt='Ashleye template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news1.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText(style="text-align:center")
+						h2 發佈出版
+						p(style="font-size: 18px;")
+							| 雲端內容管理,快速發佈行 PP
+							br
+							br
+							br
+	section#c2.slice
+		.container.imgHover
+			.row
+				.col-lg-12(style="padding-top:100px;")
+					a(id="c2",style="text-decoration: none;")
+						h1
+							商品型錄
+					h2.subTitle 
+				article.col-sm-4
+					section.imgWrapper
+						img.img-responsive(src='images/news/news1.jpg', alt='Ashleye template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news1.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText(style="text-align:center")
+						h2 創意內容
+						p(style="font-size: 18px;")
+							| 更豐富的多媒體線上型錄
+							br
+							br
+							br
+				article.col-sm-4
+					section.imgWrapper
+						img.img-responsive(src='images/news/news1.jpg', alt='Ashleye template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news1.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText(style="text-align:center")
+						h2 串聯服務
+						p(style="font-size: 18px;")
+							| 串連線上和線下的消費體驗
+							br
+							br
+							br
+				article.col-sm-4
+					section.imgWrapper
+						img.img-responsive(src='images/news/news1.jpg', alt='Ashleye template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news1.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText(style="text-align:center")
+						h2 效益分析
+						p(style="font-size: 18px;")
+							| 深入連結消費者,分析商品喜好
+							br
+							br
+							br
+	section#c3.slice
+		.container.imgHover
+			.row
+				.col-lg-12(style="padding-top:100px;")
+					a(id="c3",style="text-decoration: none;")
+						h1
+							互動教材
+					h2.subTitle 
+				article.col-sm-4
+					section.imgWrapper
+						img.img-responsive(src='images/news/news1.jpg', alt='Ashleye template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news1.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText(style="text-align:center")
+						h2 創意內容
+						p(style="font-size: 18px;")
+							| 打造高互動數位教材,如有聲書、繪本
+							br
+							br
+							br
+				article.col-sm-4
+					section.imgWrapper
+						img.img-responsive(src='images/news/news1.jpg', alt='Ashleye template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news1.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText(style="text-align:center")
+						h2 學習激盪
+						p(style="font-size: 18px;")
+							| 啟蒙思考邏輯，激發學習樂趣
+							br
+							br
+							br
+				article.col-sm-4
+					section.imgWrapper
+						img.img-responsive(src='images/news/news1.jpg', alt='Ashleye template image news')
+					.mediaHover
+						.mask
+						.iconLinks
+							a.image-link(href='images/news/news1.jpg', title='Zoom')
+								i.icon-search.iconRounded.iconBig
+								span zoom
+					section.newsText(style="text-align:center")
+						h2 記錄歷程
+						p(style="font-size: 18px;")
+							| 記錄學習歷程,提升學習成效
+							br
+							br
+							br
+							
+							
+script(type='text/javascript')
+	$(document).ready(function(){
+		//alert("life is way 2 short");
+	});
+			function scrollToAnchor(aid){
+				var aTag = $("a[id='"+ aid +"']");
+				$('html,body').animate({scrollTop: aTag.offset().top-200},'slow');
+			}

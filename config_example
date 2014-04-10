@@ -1,0 +1,4 @@
+[config]
+ mongo_port = 27017
+ mongo_host = localhost
+ server_url = localhost
